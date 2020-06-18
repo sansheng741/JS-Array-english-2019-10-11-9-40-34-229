@@ -49,7 +49,7 @@ var index = 0,
 	chat = a[0],
 	count = 0,
 	maxCount = 0;
-for (var i = 0; i < a.length + 1; i++) {
+for (var i = 0; i <= a.length; i++) {
 	if (chat == a[i]) {
 		count++; //如果相同，则统计+1
 	} else {
